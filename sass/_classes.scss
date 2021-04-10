@@ -1,0 +1,66 @@
+body {
+    background-color: $darkCyan;
+    //display: flex;
+    //justify-content: center;
+    //align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+//overall card
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 400px;
+    width: 350px;
+    display: inline-block;
+    margin-top: 25vh;
+    //margin-left: 25vh;
+
+    /* #profilePic {
+        border: 5px solid white;
+        border-radius: 100%;
+        position: absolute;
+        left: 35%;
+        top: 25%;
+    } */
+    
+}
+
+//Profile name
+#card-name {
+    background-color: blue;
+    //border: 1px solid red;
+    padding: 10px;
+}
+
+//Card stats
+#card-stats {
+    //margin-top: 10px;
+    padding-top: 20px;
+    border-top: 1px solid $darkGray;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    display: table;
+    width: 100%;
+    background-color: green;
+}
+
+
+.grid-item {
+    display: table-cell;  
+}
+
+
+.profStats {
+    color: $veryDarkBlue;
+    font: {
+        size: 18px;
+        weight: 700;
+        family: 'Kumbh Sans', sans-serif;
+    }
+}

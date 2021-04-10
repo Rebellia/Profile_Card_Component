@@ -1,0 +1,68 @@
+body {
+  background-color: #19a2ae;
+  height: 100vh;
+  text-align: center;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 400px;
+  width: 350px;
+  display: inline-block;
+  margin-top: 25vh;
+  /* #profilePic {
+        border: 5px solid white;
+        border-radius: 100%;
+        position: absolute;
+        left: 35%;
+        top: 25%;
+    } */
+}
+
+#card-name {
+  background-color: blue;
+  padding: 10px;
+}
+
+#card-stats {
+  padding-top: 20px;
+  border-top: 1px solid #969696;
+  /* display: grid;
+    grid-template-columns: auto auto auto; */
+  display: table;
+  width: 100%;
+  background-color: green;
+}
+
+.grid-item {
+  display: table-cell;
+}
+
+.profStats {
+  color: #2d3248;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #969696;
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */

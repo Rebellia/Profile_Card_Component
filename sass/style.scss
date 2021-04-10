@@ -1,0 +1,17 @@
+@import "variables";
+@import "classes";
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: $darkGray;
+    
+    font: {
+        size: 18px;
+        family: 'Kumbh Sans', sans-serif;
+        weight: 400;
+    }
+}
